@@ -44,6 +44,8 @@ cd .local
 
 Download the scripts in this repo to `comfyui/.local`
 
+e.g. You should see `comfyui/.local/main.ps1`
+
 ## Download Python 3.11
 
 Download python standalone/portable from here:
