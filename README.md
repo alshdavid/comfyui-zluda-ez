@@ -83,5 +83,5 @@ cd comfyui
 ```powershell
 # PowerShell Core
 cd comfyui
-.\.local\start.ps1
+.\.local\main.ps1
 ```
