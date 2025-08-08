@@ -102,3 +102,16 @@ Or if you want to supply your own arguments run `main.ps1` which functions as a 
 # PowerShell Core
 .\.local\main.ps1 --auto-launch --use-quad-cross-attention --reserve-vram 0.9
 ```
+
+### Integrated GPU Conflict
+
+If your computer has an integrated GPU and ComfyUI is picking the wrong GPU, you can run this
+
+```powershell
+# PowerShell Core
+
+$env:HIP_VISIBLE_DEVICES = 1
+.\.local\start.ps1
+```
+
+Or add that to the top of `.local/main.ps1` to avoid setting that variable every time you start ComfyUI
