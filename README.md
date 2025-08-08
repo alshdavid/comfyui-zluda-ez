@@ -35,7 +35,7 @@ Ignore changes we will make to repo
 
 ```powershell
 # PowerShell Core
-cd ~/comfyui
+cd ~\comfyui
 "`n.local" | Out-File -Append .gitignore
 mkdir .local
 cd .local
