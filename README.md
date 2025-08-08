@@ -53,7 +53,7 @@ Download python standalone/portable from here:
 Find the latest standalone python release for windows here:
 https://github.com/astral-sh/python-build-standalone/releases
 
-At the time of writing, that this one:
+At the time of writing, this is the latest release:
 https://github.com/astral-sh/python-build-standalone/releases/download/20250807/cpython-3.11.13+20250807-x86_64-pc-windows-msvc-install_only.tar.gz
 
 _Note, check the releases for the latest one. They rebuild them frequently_
