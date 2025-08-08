@@ -75,7 +75,7 @@ Make sure `comfyui/.local/zluda/zluda.exe` exists
 
 ## Run Install Script
 
-Run this once to setup
+Run this once to setup. It install all the pip dependencies and patches CUDA with ZLUDA
 
 ```powershell
 # PowerShell Core
@@ -85,17 +85,20 @@ cd comfyui
 
 ## Start Comfyui
 
-Simple Preconfigured
+To run comfyui with the default arguments run this
 
 ```powershell
 # PowerShell Core
 cd comfyui
 .\.local\start.ps1
+
+# Default args
+# .\.local\main.ps1 --use-quad-cross-attention --reserve-vram 0.9
 ```
 
-Or a proxy to `main.py` with custom args
+Or if you want to supply your own arguments run `main.ps1` which functions as a proxy for `main.py`
 
 ```powershell
 # PowerShell Core
-.\.local\main.ps1 --disable-auto-launch --use-quad-cross-attention --reserve-vram 0.9
+.\.local\main.ps1 --auto-launch --use-quad-cross-attention --reserve-vram 0.9
 ```
