@@ -35,14 +35,14 @@ Ignore changes we will make to repo
 
 ```powershell
 # PowerShell Core
-cd comfyui
+cd ~/comfyui
 "`n.local" | Out-File -Append .gitignore
 mkdir .local
 cd .local
-# Download scripts here
+# Download scripts in this repo here
 ```
 
-Download the scripts to `comfyui/.local`
+Download the scripts in this repo to `comfyui/.local`
 
 ## Download Python 3.11
 
