@@ -80,8 +80,17 @@ cd comfyui
 
 ## Start Comfyui
 
+Simple Preconfigured
+
 ```powershell
 # PowerShell Core
 cd comfyui
-.\.local\main.ps1
+.\.local\start.ps1
+```
+
+Or a proxy to `main.py` with custom args
+
+```powershell
+# PowerShell Core
+.\.local\main.ps1 --disable-auto-launch --use-quad-cross-attention --reserve-vram 0.9
 ```
